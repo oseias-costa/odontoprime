@@ -27,6 +27,7 @@ const Img = styled(Image)`
   height: 300px;
   width: 450px;
   margin: 20px;
+  border-radius: 5px;
 `;
 
 const ChangePhoto = ({ img, setImg }) => {
