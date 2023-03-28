@@ -16,9 +16,18 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 25px;
 `;
 
 const TextContent = styled(Text)`
   width: 600px;
-  paddint-top: 20px;
+  padding-top: 20px;
+  color: #6b6b6e;
+  font-size: 12pt;
+  text-align: center;
+  @media (max-width: 740px){
+    width: auto;
+    text-align: center;
+    padding: 20px;
+  }
 `;

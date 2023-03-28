@@ -32,4 +32,5 @@ const Container = styled.div`
 const TextDescription = styled(Text)`
   padding-bottom: 30px;
   padding-top: 20px;
+  color: #6b6b6e;
 `;

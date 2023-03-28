@@ -3,12 +3,14 @@ import React from "react";
 import styled from "styled-components";
 import Title from "./Title";
 import Lab from "./Lab";
+import Dentists from "./Dentists";
 
 export default function Clinic() {
   return (
     <Container>
       <Title />
       <Lab />
+      <Dentists />
     </Container>
   );
 }

@@ -11,8 +11,8 @@ export default function Treatments() {
     return (
       <BlockBody key={item.id}>
         <Img src={item.image} />
-        <Content>
           <H4>{item.title}</H4>
+        <Content>
           <Description>{item.content}</Description>
         </Content>
       </BlockBody>
@@ -43,10 +43,20 @@ const BlockBody = styled.div`
   border: 1px solid #e8e8ed;
   @media (max-width: 740px) {
     width: 150px;
+    margin: 10px;
   }
 `;
 
-const Content = styled.div``;
+const Content = styled.div`
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  @media (max-width: 740px) {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+`;
 
 const Img = styled(Image)`
   width: 200px;
@@ -60,6 +70,7 @@ const Img = styled(Image)`
 
 const Description = styled(SmallText)`
   margin-top: 20px;
+  font-size: 10pt;
   @media (max-width: 740px) {
     font-size: 10pt;
   }
