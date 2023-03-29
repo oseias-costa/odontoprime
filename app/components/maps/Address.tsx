@@ -27,12 +27,20 @@ export default function Address() {
 }
 
 const Container = styled.section`
-  max-width: 350px;
-  padding-right: 35px;
-`;
+  display: flex;
+  flex-wrap: wrap;
+  @media (max-width: 740px){
+    justify-content: center;
+  }
+  `;
+
 
 const IconsContainer = styled.div`
   display: flex;
+  padding: 40px;
+  @media(max-width: 740px){
+    padding: 10px;
+  }
 `;
 
 const Icon = styled(Image)`
@@ -50,16 +58,19 @@ const WazeIcon = styled(Icon)`
 
 const Description = ({ title, text }) => {
   return (
-    <div>
+    <DescriptionContainer>
       <H4>{title}</H4>
       <DescriptionText>{text}</DescriptionText>
-    </div>
+    </DescriptionContainer>
   );
 };
 
 const DescriptionContainer = styled.div`
+  padding: 40px;
+  max-width: 350px;
   @media(max-width: 740px) {
-    
+    text-align: center;
+    padding: 10px;
   }
 `
 

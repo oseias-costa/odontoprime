@@ -7,7 +7,7 @@ import Dentists from "./Dentists";
 
 export default function Clinic() {
   return (
-    <Container>
+    <Container id="Clinica">
       <Title />
       <Lab />
       <Dentists />

@@ -7,7 +7,7 @@ import Address from "./Address";
 
 export default function Maps() {
   return (
-    <Container id="Maps">
+    <Container id="Como-Chegar">
       <Title />
       <Content>
         <Address />
@@ -23,8 +23,9 @@ const Container = styled.section`
 
 const Content = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   @media (max-width: 740px) {
     flex-direction: column;
     align-items: center;

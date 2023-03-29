@@ -19,8 +19,8 @@ export default function Local() {
 const Container = styled.section``;
 
 const Iframe = styled.iframe`
-  width: 600px;
-  height: 450px;
+  width: 900px;
+  height: 300px;
   @media (max-width: 740px) {
     width: auto;
     height: auto;

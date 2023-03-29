@@ -19,7 +19,7 @@ export default function Treatments() {
     );
   });
   return (
-    <Container id="Treatments">
+    <Container id="Tratamentos">
       <Title />
       <ContainerBlocks>{block}</ContainerBlocks>
     </Container>
@@ -27,7 +27,7 @@ export default function Treatments() {
 }
 
 const Container = styled.section`
-  margin-top: 60px;
+  padding-top: 60px;
 `;
 
 const ContainerBlocks = styled.div`

@@ -6,9 +6,9 @@ export default function Menu() {
   return (
     <Nav>
         <Ul>
-            <Li><LinkNav>Tratamentos</LinkNav></Li>
-            <Li><LinkNav>Equipes</LinkNav></Li>
-            <Li><LinkNav>Contato</LinkNav></Li>
+            <Li><LinkNav href='#Tratamentos'>Tratamentos</LinkNav></Li>
+            <Li><LinkNav href='#Clinica'>Clínica</LinkNav></Li>
+            <Li><LinkNav href='#Como-Chegar'>Contato</LinkNav></Li>
         </Ul>
         <Button href='#' text='Agende uma Avaliação' />
     </Nav>

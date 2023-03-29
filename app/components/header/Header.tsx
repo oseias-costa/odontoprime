@@ -7,7 +7,7 @@ import Menu from './Menu';
 
 export default function Header() {
   return (
-    <Container id='Header'>
+    <Container id='Inicio'>
         <Logo src={LogoIcon} alt='Logo Clínica LP OdontoPrime' />
         <Menu />
     </Container>
