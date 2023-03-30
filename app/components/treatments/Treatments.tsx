@@ -71,8 +71,8 @@ const Img = styled(Image)`
   margin-bottom: 20px;
   border-radius: 10px 10px 0 0;
   @media (max-width: 740px) {
-    width: 150px;
-    height: 150px;
+    width: 148px;
+    height: 148px;
   }
 `;
 

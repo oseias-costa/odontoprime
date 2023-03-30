@@ -63,11 +63,11 @@ const Description = styled.div`
 `;
 
 const Img = styled(Image)`
-  width: 249px;
+  width: 248px;
   height: 260px;
   border-radius: 10px 10px 0 0;
   @media (max-width: 740px) {
-    width: 150px;
+    width: 148px;
     height: 156px;
   }
 `;
