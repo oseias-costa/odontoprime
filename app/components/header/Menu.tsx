@@ -10,7 +10,7 @@ export default function Menu() {
             <Li><LinkNav href='#Clinica'>Clínica</LinkNav></Li>
             <Li><LinkNav href='#Como-Chegar'>Contato</LinkNav></Li>
         </Ul>
-        <Button href='#' text='Agende uma Avaliação' />
+        <Button href='https://wa.me/5554996284494' text='Agende uma Avaliação' />
     </Nav>
   )
 }

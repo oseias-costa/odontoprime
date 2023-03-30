@@ -14,6 +14,7 @@ export default function Dentists() {
           <Title>{item.name}</Title>
           <Text>{item.description}</Text>
         </Description>
+        <DivSolid />
       </Block>
     );
   });
@@ -40,16 +41,21 @@ const DentistsBlocks = styled.div`
 `;
 
 const Block = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 250px;
   text-align: center;
   margin: 10px;
-  border: 1px solid #e8e8ed;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px 10px 0 0;
   @media (max-width: 740px) {
     width: 150px;
   }
 `;
 
 const Description = styled.div`
+  margin-bottom: auto;
   padding: 20px;
   @media (max-width: 740px) {
     padding: 5px;
@@ -57,8 +63,9 @@ const Description = styled.div`
 `;
 
 const Img = styled(Image)`
-  width: 250px;
+  width: 249px;
   height: 260px;
+  border-radius: 10px 10px 0 0;
   @media (max-width: 740px) {
     width: 150px;
     height: 156px;
@@ -79,3 +86,8 @@ const Title = styled(H4)`
     font-size: 12pt;
   }
 `;
+
+const DivSolid = styled.div`
+  background-color: #d9d9d9;
+  height: 10px;
+`

@@ -10,11 +10,12 @@ export default function Treatments() {
   const block = data.map((item) => {
     return (
       <BlockBody key={item.id}>
-        <Img src={item.image} />
-          <H4>{item.title}</H4>
+        <Img src={item.image} alt={item.title} />
         <Content>
+          <H4>{item.title}</H4>
           <Description>{item.content}</Description>
         </Content>
+        <DivSolid />
       </BlockBody>
     );
   });
@@ -37,10 +38,15 @@ const ContainerBlocks = styled.div`
 `;
 
 const BlockBody = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 200px;
   margin: 20px;
   text-align: center;
-  border: 1px solid #e8e8ed;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px 10px 0 0;
+
   @media (max-width: 740px) {
     width: 150px;
     margin: 10px;
@@ -48,8 +54,9 @@ const BlockBody = styled.div`
 `;
 
 const Content = styled.div`
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-bottom: auto;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 20px;
   @media (max-width: 740px) {
     padding-left: 10px;
@@ -59,9 +66,10 @@ const Content = styled.div`
 `;
 
 const Img = styled(Image)`
-  width: 200px;
-  height: 200px;
+  width: 198px;
+  height: 198px;
   margin-bottom: 20px;
+  border-radius: 10px 10px 0 0;
   @media (max-width: 740px) {
     width: 150px;
     height: 150px;
@@ -75,3 +83,10 @@ const Description = styled(SmallText)`
     font-size: 10pt;
   }
 `;
+
+const DivSolid = styled.div`
+  background-color: #d9d9d9;
+  height: 15px;
+  width: 100%;
+  margin-bottom: 0;
+`

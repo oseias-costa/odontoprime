@@ -9,7 +9,7 @@ type ButtonProps = {
 export default function Button({ text, href }: ButtonProps) {
   return (
     <div>
-      <ButtonBody href={href}>{text}</ButtonBody>
+      <ButtonBody href={href} target='blank'>{text}</ButtonBody>
     </div>
   );
 }

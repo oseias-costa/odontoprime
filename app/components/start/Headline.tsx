@@ -15,7 +15,7 @@ export default function Headline() {
         em tratamentos.
       </Description>
       <Blocks />
-      <Button href="https://wa.me/555499628-4494" text="Agende uma Avaliação" />
+      <Button href="https://wa.me/5554996284494" text="Agende uma Avaliação" />
     </Container>
   );
 }

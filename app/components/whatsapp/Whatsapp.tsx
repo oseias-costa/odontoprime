@@ -7,7 +7,7 @@ import WhatsSVG from '../../../public/whatsapp/whatsapp.svg'
 export default function Whatsapp() {
   return (
     <Whats>
-        <a href='https://wa.me/555499628-4494'  target='_blank'>
+        <a href='https://wa.me/5554996284494'  target='_blank'>
             <WhatsIcon src={WhatsSVG} alt='Link para o WhatsApp OdontoPrime' />    
         </a>
     </Whats>
