@@ -12,7 +12,10 @@ export default function Description() {
         Acreditamos que com um sorriso mais bonito a autoconfiança aumenta e o
         medo de sorrir desaparece.
       </TextDescription>
-      <Button href="#" text="Quero mais informações" />
+      <Button
+        href="https://wa.me/555499628-4494"
+        text="Quero mais informações"
+      />
     </Container>
   );
 }

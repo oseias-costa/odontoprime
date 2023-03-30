@@ -26,13 +26,13 @@ const Container = styled.section`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: #fefefe;
+  background-color: #e8e8ed;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 60px;
+  margin-top: 60px;
   padding-bottom: 60px;
-  
-  @media(max-width: 740px){
-      
+
+  @media (max-width: 740px) {
   }
 `;

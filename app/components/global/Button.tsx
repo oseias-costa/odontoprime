@@ -30,6 +30,9 @@ const ButtonBody = styled.a`
   color: #fff;
 
   @media (max-width: 720px) {
-    width: auto;
+    display: block;
+    width: 90vw;
+    height: auto;
+    font-size: 16pt;
   }
 `;

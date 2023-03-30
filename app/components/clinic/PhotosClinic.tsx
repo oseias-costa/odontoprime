@@ -31,17 +31,17 @@ const Img = styled(Image)`
   margin: 5px;
   border-radius: 5px;
   transition: 0.3s linear;
-  @media (max-width: 740px){
+  @media (max-width: 740px) {
     width: 325px;
     height: 217px;
   }
 `;
 
 type ChangePhotoProps = {
-  img: number,
-  setImg: (img: number) => void,
-  _id: number
-}
+  img: number;
+  setImg: (img: number) => void;
+  _id: number;
+};
 
 const ChangePhoto = ({ img, setImg }: ChangePhotoProps) => {
   console.log(img);
@@ -64,13 +64,17 @@ const ChangePhoto = ({ img, setImg }: ChangePhotoProps) => {
 
   return (
     <ContainerCP>
-      <Btn onClick={() => lastImage()}><BtnLast src={Arrow} alt='Próxima Foto' /></Btn>
-        <ButtonsDiv>
-          <CircleBtn _id={0} img={img} onClick={() => setImg(0)}/>
-          <CircleBtn _id={1} img={img} onClick={() => setImg(1)}/>
-          <CircleBtn _id={2} img={img} onClick={() => setImg(2)}/>
-        </ButtonsDiv>
-      <Btn onClick={() => nextImage()}><BtnNext src={Arrow} alt='Próxima Foto' /></Btn>
+      <Btn onClick={() => lastImage()}>
+        <BtnLast src={Arrow} alt="Próxima Foto" />
+      </Btn>
+      <ButtonsDiv>
+        <CircleBtn _id={0} img={img} onClick={() => setImg(0)} />
+        <CircleBtn _id={1} img={img} onClick={() => setImg(1)} />
+        <CircleBtn _id={2} img={img} onClick={() => setImg(2)} />
+      </ButtonsDiv>
+      <Btn onClick={() => nextImage()}>
+        <BtnNext src={Arrow} alt="Próxima Foto" />
+      </Btn>
     </ContainerCP>
   );
 };
@@ -84,19 +88,20 @@ const ContainerCP = styled.div`
 
 const ButtonsDiv = styled.div`
   display: flex;
-`
+`;
 
-const CircleBtn = styled("button")<{img: number, _id: number}>`
-  background-color: ${props => props.img === props._id ? '#b2821f' : '#6b6b6e'};
-  width: 15px;
-  height: 15px;
+const CircleBtn = styled("button")<{ img: number; _id: number }>`
+  background-color: ${(props) =>
+    props.img === props._id ? "#B2821F" : "#D9D9D9"};
+  width: 10px;
+  height: 10px;
   border-radius: 50px;
   margin: 5px;
   cursor: pointer;
-`
+`;
 const Btn = styled.button`
   background-color: transparent;
-`
+`;
 
 const BtnNext = styled(Image)`
   width: 25px;
@@ -105,7 +110,7 @@ const BtnNext = styled(Image)`
   background-color: transparent;
   margin-left: 20px;
   margin-right: 20px;
-`
+`;
 const BtnLast = styled(BtnNext)`
   transform: rotate(180deg);
-`
+`;

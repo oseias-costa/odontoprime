@@ -29,16 +29,15 @@ export default function Address() {
 const Container = styled.section`
   display: flex;
   flex-wrap: wrap;
-  @media (max-width: 740px){
+  @media (max-width: 740px) {
     justify-content: center;
   }
-  `;
-
+`;
 
 const IconsContainer = styled.div`
   display: flex;
   padding: 40px;
-  @media(max-width: 740px){
+  @media (max-width: 740px) {
     padding: 10px;
   }
 `;
@@ -68,13 +67,16 @@ const Description = ({ title, text }) => {
 const DescriptionContainer = styled.div`
   padding: 40px;
   max-width: 350px;
-  @media(max-width: 740px) {
+  @media (max-width: 740px) {
     text-align: center;
     padding: 10px;
   }
-`
+`;
 
 const DescriptionText = styled(Text)`
   padding-top: 5px;
   padding-bottom: 30px;
+  @media (max-width: 740px) {
+    padding-bottom: 0px;
+  }
 `;
