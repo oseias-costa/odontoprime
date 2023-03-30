@@ -55,7 +55,12 @@ const WazeIcon = styled(Icon)`
   padding-left: 20px;
 `;
 
-const Description = ({ title, text }) => {
+type DescriptionProps = {
+  title: string,
+  text: string
+}
+
+const Description = ({ title, text }: DescriptionProps) => {
   return (
     <DescriptionContainer>
       <H4>{title}</H4>

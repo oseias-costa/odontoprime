@@ -40,7 +40,7 @@ const Img = styled(Image)`
 type ChangePhotoProps = {
   img: number;
   setImg: (img: number) => void;
-  _id: number;
+  // _id: number;
 };
 
 const ChangePhoto = ({ img, setImg }: ChangePhotoProps) => {

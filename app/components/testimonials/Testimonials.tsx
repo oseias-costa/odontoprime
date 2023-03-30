@@ -12,9 +12,9 @@ export default function Testimonials() {
         height="258"
         src="https://www.youtube.com/embed/YChGjCYDHHQ"
         title="YouTube video player"
-        frameborder="0"
+        // frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        // allowfullscreen
       ></iframe>
       <Description />
     </Container>

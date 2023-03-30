@@ -6,4 +6,4 @@ export default function Lab() {
   return <Container id="Lab"></Container>;
 }
 
-const Lab = styled.section``;
+const Container = styled.section``;

@@ -8,7 +8,7 @@ import { dentist } from "./_data";
 export default function Dentists() {
   const block = dentist.map((item) => {
     return (
-      <Block>
+      <Block key={item.id}>
         <Img src={item.image} alt={item.name} />
         <Description>
           <Title>{item.name}</Title>

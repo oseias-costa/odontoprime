@@ -3,7 +3,12 @@ import React from "react";
 import styled from "styled-components";
 import { H4, Text } from "../global/Texts";
 
-export default function Subtitle({ title, content }) {
+type SubtitleProps = {
+  title: string,
+  content: string
+}
+
+export default function Subtitle({ title, content }: SubtitleProps) {
   return (
     <Container id="Lab">
       <H4>{title}</H4>

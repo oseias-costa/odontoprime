@@ -86,7 +86,7 @@ const Description = styled(SmallText)`
 
 const DivSolid = styled.div`
   background-color: #d9d9d9;
-  height: 15px;
+  height: 10px;
   width: 100%;
   margin-bottom: 0;
 `
