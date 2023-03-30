@@ -13,7 +13,7 @@ export default function Address() {
         title="Endereço"
         text="Rua Idependência, 25 - Centro 99010-041 - Passo Fundo"
       />
-      <Description title="Telefone" text="(54) 9 9628-4494" />
+      <Description title="Telefone" text="(54)9 9928-4494" />
       <IconsContainer>
         <a href="https://goo.gl/maps/htN5by1yBAefTKtk8">
           <Icon src={Google} alt="Localização Google Maps" />
@@ -56,9 +56,9 @@ const WazeIcon = styled(Icon)`
 `;
 
 type DescriptionProps = {
-  title: string,
-  text: string
-}
+  title: string;
+  text: string;
+};
 
 const Description = ({ title, text }: DescriptionProps) => {
   return (
