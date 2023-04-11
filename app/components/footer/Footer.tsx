@@ -59,6 +59,9 @@ const Container = styled.footer`
 const Img = styled(Image)`
   width: 350px;
   height: auto;
+  @media (max-width: 740px){
+    width: 250px;
+  }
 `;
 
 const LogoBlock = styled.div`
