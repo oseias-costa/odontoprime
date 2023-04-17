@@ -13,7 +13,7 @@ export default function Footer() {
     <Container>
       <LogoBlock>
         <Img src={LogoGray} alt="Logo" />
-        <SmallText>LPODONTOPRIME.PF@GMAIL.COM</SmallText>
+        <SmallText>CLINICA@LPODONTOPRIME.COM.BR</SmallText>
         <SmallText>(54) 9 9628-4494</SmallText>
         <div>
           <a href="#">

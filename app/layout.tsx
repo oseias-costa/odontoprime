@@ -5,7 +5,7 @@ import { Figtree } from 'next/font/google'
 
 export const metadata = {
   title: 'Clínica LP OdontoPrime',
-  description: '',
+  description: 'O sorriso dos sonhos é na LP OdontoPrime',
 }
 
 const apollo = localFont({

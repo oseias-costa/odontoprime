@@ -76,7 +76,7 @@ const Text = styled(SmallText)`
   padding: 10px;
   font-size: 12pt;
   @media (max-width: 740px) {
-    font-size: 10pt;
+    font-size: 9pt;
     padding: 5px;
   }
 `;

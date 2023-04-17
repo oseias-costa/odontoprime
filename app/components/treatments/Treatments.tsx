@@ -78,9 +78,9 @@ const Img = styled(Image)`
 
 const Description = styled(SmallText)`
   margin-top: 20px;
-  font-size: 10pt;
+  font-size: 11pt;
   @media (max-width: 740px) {
-    font-size: 10pt;
+    font-size: 9pt;
   }
 `;
 

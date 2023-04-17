@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
 import Headline from "./Headline";
-import ImgStart from "../../../public/start/imgStart.png";
+import ImgStart from "../../../public/start/photo-start-new.png";
 
 export default function Start() {
   return (
@@ -23,7 +23,7 @@ const Container = styled.section`
 
 const Img = styled(Image)`
   width: 531px;
-  height: 450px;
+  height: 492.12px;
   @media (max-width: 720px) {
     width: 331px;
     height: 280px;

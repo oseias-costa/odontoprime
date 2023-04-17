@@ -23,6 +23,7 @@ const Whats = styled.div`
     box-shadow: var(--shadow);
     background-color: #34af23;
     transition: 0.4s;
+    z-index: 100;
 
     &:hover{
         background-color: #2c901f;
