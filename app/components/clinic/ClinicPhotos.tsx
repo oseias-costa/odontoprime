@@ -26,7 +26,7 @@ export default function ClinicPhotos() {
       >
         { lab.map(item => {
             return(
-                <SwiperSlide>
+                <SwiperSlide key={item.id}>
                         <Img src={item.image1} alt='' />
                         <Img src={item.image2} alt='' />
                 </SwiperSlide>
