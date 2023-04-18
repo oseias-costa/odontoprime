@@ -7,13 +7,14 @@ import Blocks from "./Blocks";
 export default function Headline() {
   return (
     <Container>
-      <H3>Bem-vindo</H3>
-      <Title>O sorriso dos sonhos é na&nbsp;</Title>
-      <Emphasis>LP OdontoPrime</Emphasis>
-      <Description>
-        Referência em Passo Fundo e região, a Cliníca LP OdontoPrime é completa
-        em tratamentos.
-      </Description>
+      <TitleContainer>
+        <H3>Bem-vindo</H3>
+        <Title>O sorriso dos sonhos é na&nbsp;</Title>
+        <Emphasis>LP Odonto Prime</Emphasis>
+        <Description>
+          Referência em Passo Fundo e região, a Cliníca LP OdontoPrime é especialista em sorrisos.
+        </Description>
+      </TitleContainer>
       <Blocks />
       <Button href="https://wa.me/5554996284494" text="Agende uma Avaliação" />
     </Container>
@@ -21,7 +22,8 @@ export default function Headline() {
 }
 
 const Container = styled.div`
-  max-width: 400px;
+    position: relative;
+    left: 25px;
   @media (max-width: 720px) {
     display: flex;
     flex-direction: column;
@@ -29,8 +31,13 @@ const Container = styled.div`
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    left: 0px;
   }
 `;
+
+const TitleContainer = styled.div`
+  max-width: 420px;
+`
 
 const Title = styled.h1`
   font-family: var(--font-apollo);

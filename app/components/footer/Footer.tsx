@@ -16,10 +16,10 @@ export default function Footer() {
         <SmallText>CLINICA@LPODONTOPRIME.COM.BR</SmallText>
         <SmallText>(54) 9 9628-4494</SmallText>
         <div>
-          <a href="#">
+          <a href="https://www.instagram.com/lpodontoprime.pf/" target='_blank'>
             <Icon src={Insta} alt="" size="30px" />
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/oralbrasilpassofundo" target='_blank'>
             <Icon src={Face} alt="" size="30px" />
           </a>
         </div>
@@ -36,7 +36,7 @@ export default function Footer() {
           Rua Idependência 25
           <br />
           Centro 99010-041
-          <br /> Passo Fundo -RS
+          <br /> Passo Fundo - RS
         </SmallText>
       </Address>
     </Container>

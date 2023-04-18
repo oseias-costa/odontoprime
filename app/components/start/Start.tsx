@@ -24,6 +24,8 @@ const Container = styled.section`
 const Img = styled(Image)`
   width: 531px;
   height: 492.12px;
+  position: relative;
+  right: 25px;
   @media (max-width: 720px) {
     width: 331px;
     height: 280px;

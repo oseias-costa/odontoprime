@@ -23,25 +23,31 @@ export default function Blocks() {
 }
 
 const Container = styled.div`
+  max-width: 600px;
   display: flex;
   padding-top: 30px;
   padding-bottom: 40px;
 `;
 const Block = styled.div`
+  max-width: 180px;
   text-align: left;
   padding-right: 20px;
   @media (max-width: 720px) {
+    max-width: 100px;
     text-align: center;
     padding: 5px;
   }
 `;
 
 const Img = styled(Image)`
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
 `;
 
 const Text = styled.p`
   color: #6b6b6e;
-  font-size: 11pt;
+  font-size: 10pt;
+  @media (max-width: 720px) {
+    font-size: 9pt;
+  }
 `;

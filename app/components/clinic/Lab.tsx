@@ -10,9 +10,8 @@ export default function Lab() {
   return (
     <Container id="Lab">
       <Subtitle
-        title="Laboratório Próprio"
-        content="A Clínica LP Odonto Prime conta com um laboratório próprio oferecendo
-        mais segurança e rapidez no diagnóstico de tratamento para o paciente."
+        title="Clínica Odontológica"
+        content="Referência em implantes dentários e estética em Passo Fundo e região. Estrutura com o máximo de conforto e tecnologias para proporcionar o melhor atendimento aos pacientes. Raio-X panorâmico, laboratório de prótese e equipe especializadas, tudo isso em um só lugar!"
       />
       <ClinicPhotos />
     </Container>

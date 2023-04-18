@@ -1,11 +1,11 @@
-import Lab0 from "../../../public/clinic/lab/lab0.png";
-import Lab1 from "../../../public/clinic/lab/lab1.png";
-import Lab2 from "../../../public/clinic/lab/lab2.png";
-import Lab3 from "../../../public/clinic/lab/lab3.png";
-import Lab4 from "../../../public/clinic/lab/lab4.png";
-import Lab5 from "../../../public/clinic/lab/lab5.png";
-import Lab6 from "../../../public/clinic/lab/lab6.png";
-import Lab7 from "../../../public/clinic/lab/lab7.png";
+import Lab0 from "../../../public/clinic/lab/lab0.webp";
+import Lab1 from "../../../public/clinic/lab/lab1.webp";
+import Lab2 from "../../../public/clinic/lab/lab2.webp";
+import Lab3 from "../../../public/clinic/lab/lab3.webp";
+import Lab4 from "../../../public/clinic/lab/lab4.webp";
+import Lab5 from "../../../public/clinic/lab/lab5.webp";
+import Lab6 from "../../../public/clinic/lab/lab6.webp";
+import Lab7 from "../../../public/clinic/lab/lab7.webp";
 import Dentist1 from "../../../public/clinic/dentists/dentist1.png";
 import Dentist2 from "../../../public/clinic/dentists/dentist2.png";
 import Dentist3 from "../../../public/clinic/dentists/dentist3.png";
@@ -37,8 +37,8 @@ export const lab = [
 export const dentist = [
   {
     id: 1,
-    name: 'Dra. Laís Agayer',
-    description: 'Sou especialista em prótese dentária, aonde abrange várias partes da odontologia que vão desde uma prótese total a lentes de contato.',
+    name: 'Dra. Laís Agayer Raguze',
+    description: 'Cirurgiã-dentista formada pela FASURGS em 2017.  Especialista em Ortodontia.  Diretora clínica da unidade e dentista avaliadora.',
     image: Dentist1
   },
   {
@@ -55,8 +55,8 @@ export const dentist = [
   },
   {
     id: 3,
-    name: 'Dra. Laís Agayer',
-    description: 'Sou especialista em prótese dentária, aonde abrange várias partes da odontologia que vão desde uma prótese total a lentes de contato.',
+    name: 'Dra. Gabrielli Ganzer Fabonato',
+    description: 'Cirurgiã-dentista formada pela Atitus 2022. Especializanda em Endodontia. Atendimento clínico geral.',
     image: Dentist4
   }
 ]
