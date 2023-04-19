@@ -43,13 +43,13 @@ export const dentist = [
   },
   {
     id: 2,
-    name: 'Dra. Laís Agayer',
+    name: 'Dr. Rodrigo Ottoni',
     description: 'Sou especialista em prótese dentária, aonde abrange várias partes da odontologia que vão desde uma prótese total a lentes de contato.',
     image: Dentist2
   },
   {
     id: 3,
-    name: 'Dra. Laís Agayer',
+    name: 'Dra. Larissa Rocha',
     description: 'Sou especialista em prótese dentária, aonde abrange várias partes da odontologia que vão desde uma prótese total a lentes de contato.',
     image: Dentist3
   },

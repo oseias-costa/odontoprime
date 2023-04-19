@@ -14,7 +14,7 @@ export default function Footer() {
       <LogoBlock>
         <Img src={LogoGray} alt="Logo" />
         <SmallText>CLINICA@LPODONTOPRIME.COM.BR</SmallText>
-        <SmallText>(54) 9 9628-4494</SmallText>
+        <SmallText>(54) 9 9928-4494</SmallText>
         <div>
           <a href="https://www.instagram.com/lpodontoprime.pf/" target='_blank'>
             <Icon src={Insta} alt="" size="30px" />

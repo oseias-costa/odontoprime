@@ -13,7 +13,7 @@ export default function Description() {
         medo de sorrir desaparece.
       </TextDescription>
       <Button
-        href="https://wa.me/5554996284494"
+        href="https://wa.me/5554999284494"
         text="Quero mais informações"
       />
     </Container>

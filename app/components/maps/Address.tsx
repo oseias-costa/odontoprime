@@ -13,7 +13,7 @@ export default function Address() {
         title="Endereço"
         text="Rua Idependência, 25 - Centro 99010-041 - Passo Fundo"
       />
-      <Description title="Contato" text="(54) 9 9628-4494 clinica@lpodontoprime.com.br" />
+      <Description title="Contato" text="(54) 9 9928-4494 clinica@lpodontoprime.com.br" />
       <IconsContainer>
         <a href="https://goo.gl/maps/htN5by1yBAefTKtk8">
           <Icon src={Google} alt="Localização Google Maps" />
