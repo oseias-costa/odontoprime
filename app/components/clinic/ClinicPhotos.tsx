@@ -25,11 +25,12 @@ export default function ClinicPhotos() {
   return (
     <Container>
       <Swiper 
-        cssMode={true}
+        speed={600}
+        cssMode={false}
         navigation={true}
         pagination={true} 
         mousewheel={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]} 
+        modules={[Navigation, Pagination, Keyboard, Mousewheel]} 
         className="mySwiper"
       >
         { swiperItems }
