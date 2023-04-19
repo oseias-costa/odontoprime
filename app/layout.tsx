@@ -2,6 +2,8 @@ import './globals.css'
 import StyledComponentsRegistry from './lib/registry'
 import localFont from 'next/font/local'
 import { Figtree } from 'next/font/google'
+import Meta from './components/global/Meta'
+import Google from './components/global/Google'
 
 export const metadata = {
   title: 'Clínica LP OdontoPrime',
@@ -27,6 +29,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-Br" className={`${apollo.variable} ${figtree.className}`}>
+      <Meta />
+      <Google />
       <body>
         <StyledComponentsRegistry>
           {children}
