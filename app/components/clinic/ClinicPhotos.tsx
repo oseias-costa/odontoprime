@@ -14,6 +14,14 @@ import "./styles.css";
 
 
 export default function ClinicPhotos() {
+    const swiperItems = lab.map(item => {
+      return(
+          <SwiperSlide key={item.id}>
+                  <Img src={item.image1} alt='Clínica LP Odonto Prime' />
+                  <Img src={item.image2} alt='Clínica LP Odonto Prime' />
+          </SwiperSlide>
+      )
+  }) 
   return (
     <Container>
       <Swiper 
@@ -24,15 +32,7 @@ export default function ClinicPhotos() {
         modules={[Navigation, Pagination, Mousewheel, Keyboard]} 
         className="mySwiper"
       >
-        { lab.map(item => {
-            return(
-                <SwiperSlide key={item.id}>
-                        <Img src={item.image1} alt='' />
-                        <Img src={item.image2} alt='' />
-                </SwiperSlide>
-            )
-        }) }
-        
+        { swiperItems }
       </Swiper>
     </Container>
   );

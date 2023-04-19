@@ -6,6 +6,10 @@ import Lab4 from "../../../public/clinic/lab/lab4.webp";
 import Lab5 from "../../../public/clinic/lab/lab5.webp";
 import Lab6 from "../../../public/clinic/lab/lab6.webp";
 import Lab7 from "../../../public/clinic/lab/lab7.webp";
+import Lab8 from "../../../public/clinic/lab/lab8.webp";
+import Lab9 from "../../../public/clinic/lab/lab9.webp";
+import Lab10 from "../../../public/clinic/lab/lab10.webp";
+import Lab11 from "../../../public/clinic/lab/lab11.webp";
 import Dentist1 from "../../../public/clinic/dentists/dentist1.png";
 import Dentist2 from "../../../public/clinic/dentists/dentist2.png";
 import Dentist3 from "../../../public/clinic/dentists/dentist3.png";
@@ -31,6 +35,16 @@ export const lab = [
     id: 4,
     image1: Lab6,
     image2: Lab7,
+  },
+  {
+    id: 5,
+    image1: Lab8,
+    image2: Lab9,
+  },
+  {
+    id: 6,
+    image1: Lab10,
+    image2: Lab11,
   }
 ];
 
@@ -44,13 +58,13 @@ export const dentist = [
   {
     id: 2,
     name: 'Dr. Rodrigo Ottoni',
-    description: 'Sou especialista em prótese dentária, aonde abrange várias partes da odontologia que vão desde uma prótese total a lentes de contato.',
+    description: 'Cirurgião-dentista formado pela UPF em 2014. Mestre e doutor em Odontologia (biomateriais) com doutorado sanduíche nos EUA (Jackson, Mississippi). Especialista em dentistica restauradora e estética.',
     image: Dentist2
   },
   {
     id: 3,
-    name: 'Dra. Larissa Rocha',
-    description: 'Sou especialista em prótese dentária, aonde abrange várias partes da odontologia que vão desde uma prótese total a lentes de contato.',
+    name: 'Dra. Larissa Simião da Rocha',
+    description: 'Cirurgiã-dentista formada pela UPF em 2018. Mestre e doutoranda em Odontologia (biomateriais). Ênfase em próteses fixas e lentes de contato.',
     image: Dentist3
   },
   {
