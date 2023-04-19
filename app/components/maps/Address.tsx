@@ -11,7 +11,7 @@ export default function Address() {
     <Container id="Address">
       <Description
         title="Endereço"
-        text="Rua Idependência, 25 - Centro 99010-041 - Passo Fundo"
+        text="Rua Independência, 25 - Centro 99010-041 - Passo Fundo"
       />
       <Description title="Contato" text="(54) 9 9928-4494 clinica@lpodontoprime.com.br" />
       <IconsContainer>

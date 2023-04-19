@@ -29,7 +29,7 @@ export const data = [
     id: 4,
     title: "Harmonização Facial",
     content:
-      "Tratamento estético que utiliza uma combinação de técnicas e produtos, para proporcionar mais equilíbrio entre o volume, o formato e o ângulo de todas as partes do rosto.",
+      "Tratamento estético que utiliza uma combinação de técnicas e produtos, para proporcionar maior equilíbrio entre o volume, o formato e o ângulo de todas as partes do rosto.",
     image: Harm,
   },
 ];
