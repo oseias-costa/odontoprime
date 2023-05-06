@@ -38,6 +38,8 @@ const DentistsBlocks = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
 `;
 
 const Block = styled.div`

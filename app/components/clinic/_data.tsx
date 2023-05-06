@@ -14,6 +14,7 @@ import Dentist1 from "../../../public/clinic/dentists/dentist1.png";
 import Dentist2 from "../../../public/clinic/dentists/dentist2.png";
 import Dentist3 from "../../../public/clinic/dentists/dentist3.png";
 import Dentist4 from "../../../public/clinic/dentists/dentist4.png";
+import Dentist5 from "../../../public/clinic/dentists/dentist5.png";
 
 export const lab = [
   {
@@ -68,9 +69,15 @@ export const dentist = [
     image: Dentist3
   },
   {
-    id: 3,
+    id: 4,
     name: 'Dra. Gabrielli Ganzer Fabonato',
     description: 'Cirurgiã-dentista formada pela Atitus 2022. Especializanda em Endodontia. Atendimento clínico geral.',
     image: Dentist4
+  },
+  {
+    id: 5,
+    name: 'Dr. Ludvino Pospich ',
+    description: 'Cirurgião-dentista formado pela UPF em 2007. Especialista em Implantodontia. Especialista em Prótese Dentária. Técnico em Prótese Dentária.',
+    image: Dentist5
   }
 ]
