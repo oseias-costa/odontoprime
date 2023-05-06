@@ -12,7 +12,7 @@ export default function Headline() {
         <Title>O sorriso dos sonhos é na&nbsp;</Title>
         <Emphasis>LP Odonto Prime</Emphasis>
         <Description>
-          Referência em Passo Fundo e região, a Cliníca LP OdontoPrime é especialista em sorrisos.
+          Referência em Passo Fundo e região, a Cliníca LP Odonto Prime é especialista em sorrisos.
         </Description>
       </TitleContainer>
       <Blocks />

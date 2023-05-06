@@ -33,7 +33,7 @@ export default function Footer() {
       <Address>
         <Icon src={Location} alt="" size="30px" />
         <SmallText>
-          Rua Independência 25
+          Rua Independência, 25
           <br />
           Centro 99010-041
           <br /> Passo Fundo - RS

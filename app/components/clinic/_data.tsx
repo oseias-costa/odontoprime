@@ -53,7 +53,7 @@ export const dentist = [
   {
     id: 1,
     name: 'Dra. Laís Agayer Raguze',
-    description: 'Cirurgiã-dentista formada pela FASURGS em 2017.  Especialista em Ortodontia.  Diretora clínica da unidade e dentista avaliadora.',
+    description: 'Cirurgiã-dentista formada pela FASURGS em 2017. Especialista em Ortodontia. Especializando em Prótese Dentária. Diretora clínica da unidade e dentista avaliadora.',
     image: Dentist1
   },
   {
@@ -71,7 +71,7 @@ export const dentist = [
   {
     id: 4,
     name: 'Dra. Gabrielli Ganzer Fabonato',
-    description: 'Cirurgiã-dentista formada pela Atitus 2022. Especializanda em Endodontia. Atendimento clínico geral.',
+    description: 'Cirurgiã-dentista formada pela Atitus em 2022. Especializanda em Endodontia. Atendimento clínico geral.',
     image: Dentist4
   },
   {
