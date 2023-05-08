@@ -52,7 +52,7 @@ export const lab = [
 export const dentist = [
   {
     id: 1,
-    name: 'Dra. Laís Agayer Raguze',
+    name: 'Dra. Laís Algayer Raguze',
     description: 'Cirurgiã-dentista formada pela FASURGS em 2017. Especialista em Ortodontia. Especializando em Prótese Dentária. Diretora clínica da unidade e dentista avaliadora.',
     image: Dentist1
   },
