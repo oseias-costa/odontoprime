@@ -22,7 +22,7 @@ export default function Dentists() {
   return (
     <Container>
       <Subtitle
-        title="Equipe Especializada"
+        title="Conheça nossa equipe"
         content="Contamos com uma equipe de alto nível com técnicas modernas."
       />
       <DentistsBlocks>{block}</DentistsBlocks>
@@ -92,4 +92,4 @@ const Title = styled(H4)`
 const DivSolid = styled.div`
   background-color: #d9d9d9;
   height: 10px;
-`
+`;

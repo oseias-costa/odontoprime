@@ -16,10 +16,13 @@ export default function Footer() {
         <SmallText>CLINICA@LPODONTOPRIME.COM.BR</SmallText>
         <SmallText>(54) 9 9928-4494</SmallText>
         <div>
-          <a href="https://www.instagram.com/lpodontoprime.pf/" target='_blank'>
+          <a href="https://www.instagram.com/lpodontoprime.pf/" target="_blank">
             <Icon src={Insta} alt="" size="30px" />
           </a>
-          <a href="https://www.facebook.com/oralbrasilpassofundo" target='_blank'>
+          <a
+            href="https://www.facebook.com/oralbrasilpassofundo"
+            target="_blank"
+          >
             <Icon src={Face} alt="" size="30px" />
           </a>
         </div>
@@ -30,15 +33,22 @@ export default function Footer() {
         <a href="#Clinica">Clínica</a>
         <a href="#Como-Chegar">Como Chegar</a>
       </LinksBlock>
-      <Address>
-        <Icon src={Location} alt="" size="30px" />
-        <SmallText>
-          Rua Independência, 25
-          <br />
-          Centro 99010-041
-          <br /> Passo Fundo - RS
-        </SmallText>
-      </Address>
+      <div>
+        <Address>
+          <Icon src={Location} alt="" size="30px" />
+          <SmallText>
+            Rua Independência, 25
+            <br />
+            Centro 99010-041
+            <br /> Passo Fundo - RS
+          </SmallText>
+        </Address>
+        <RT>
+          <p>EPAO 5034</p>
+          <p>RT Laís Algayer Raguze</p>
+          <p>CRO RS 24917</p>
+        </RT>
+      </div>
     </Container>
   );
 }
@@ -59,7 +69,7 @@ const Container = styled.footer`
 const Img = styled(Image)`
   width: 350px;
   height: auto;
-  @media (max-width: 740px){
+  @media (max-width: 740px) {
     width: 250px;
   }
 `;
@@ -109,4 +119,17 @@ const LinksBlock = styled.div`
 
 const Address = styled.div`
   display: flex;
+`;
+
+const RT = styled.div`
+  padding-top: 15px;
+  padding-left: 40px;
+  p {
+    color: #464647;
+  }
+
+  @media (max-width: 740px) {
+    text-align: center;
+    padding-left: 0px;
+  }
 `;

@@ -46,38 +46,29 @@ export const lab = [
     id: 6,
     image1: Lab10,
     image2: Lab11,
-  }
+  },
 ];
 
 export const dentist = [
   {
     id: 1,
-    name: 'Dra. Laís Algayer Raguze',
-    description: 'Cirurgiã-dentista formada pela FASURGS em 2017. Especialista em Ortodontia. Especializando em Prótese Dentária. Diretora clínica da unidade e dentista avaliadora.',
-    image: Dentist1
+    name: "Dra. Laís Algayer Raguze",
+    description:
+      "Cirurgiã-dentista formada pela FASURGS em 2017.  Ortodontia. Diretora clínica da unidade e dentista avaliadora.",
+    image: Dentist1,
   },
   {
     id: 2,
-    name: 'Dr. Rodrigo Ottoni',
-    description: 'Cirurgião-dentista formado pela UPF em 2014. Mestre e doutor em Odontologia (biomateriais) com doutorado sanduíche nos EUA (Jackson, Mississippi). Especialista em dentistica restauradora e estética.',
-    image: Dentist2
+    name: "Dr. Rodrigo Ottoni",
+    description:
+      "Cirurgião-dentista formado pela UPF em 2014. Mestre e doutor em Odontologia (biomateriais) com doutorado sanduíche nos EUA (Jackson, Mississippi). Especialista em dentística restauradora e estética.",
+    image: Dentist2,
   },
   {
     id: 3,
-    name: 'Dra. Larissa Simião da Rocha',
-    description: 'Cirurgiã-dentista formada pela UPF em 2018. Mestre e doutoranda em Odontologia (biomateriais). Ênfase em próteses fixas e lentes de contato.',
-    image: Dentist3
+    name: "Dra. Larissa Simião da Rocha",
+    description:
+      "Cirurgiã-dentista formada pela UPF em 2018. Mestre e doutora em Odontologia (biomateriais). Especializanda em Prótese Dentária. Ênfase em próteses fixas e lentes de contato.",
+    image: Dentist3,
   },
-  {
-    id: 4,
-    name: 'Dra. Gabrielli Ganzer Fabonato',
-    description: 'Cirurgiã-dentista formada pela Atitus em 2022. Especializanda em Endodontia. Atendimento clínico geral.',
-    image: Dentist4
-  },
-  {
-    id: 5,
-    name: 'Dr. Ludvino Pospich ',
-    description: 'Cirurgião-dentista formado pela UPF em 2007. Especialista em Implantodontia. Especialista em Prótese Dentária. Técnico em Prótese Dentária.',
-    image: Dentist5
-  }
-]
+];
