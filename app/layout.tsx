@@ -4,6 +4,7 @@ import localFont from 'next/font/local'
 import { Figtree } from 'next/font/google'
 import Meta from './components/global/Meta'
 import Google from './components/global/Google'
+import FacebookPixel from './components/global/FacebookPixel'
 
 export const metadata = {
   title: 'Clínica LP OdontoPrime',
@@ -30,12 +31,12 @@ export default function RootLayout({
   return (
     <html lang="pt-Br" className={`${apollo.variable} ${figtree.className}`}>
       <head>
-        <Meta />
         <Google />
       </head>
       <body>
         <StyledComponentsRegistry>
           {children}
+          <FacebookPixel />
         </StyledComponentsRegistry>
       </body>
     </html>
