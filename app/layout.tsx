@@ -34,9 +34,6 @@ export default function RootLayout({
         <Google />
       </header>
       <body>
-        <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1162821521076917&ev=PageView&noscript=1"
-        /></noscript>
         <StyledComponentsRegistry>
           {children}
         </StyledComponentsRegistry>
