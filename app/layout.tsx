@@ -2,9 +2,10 @@ import './globals.css'
 import StyledComponentsRegistry from './lib/registry'
 import localFont from 'next/font/local'
 import { Figtree } from 'next/font/google'
-import Meta from './components/global/Meta'
 import Google from './components/global/Google'
 import FacebookPixel from './components/global/FacebookPixel'
+import { useEffect } from 'react'
+import ReactPixel from 'react-facebook-pixel';
 
 export const metadata = {
   title: 'Clínica LP OdontoPrime',
