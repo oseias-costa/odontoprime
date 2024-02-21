@@ -29,10 +29,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-Br" className={`${apollo.variable} ${figtree.className}`}>
-      <header>
+      <head>
         <Meta />
         <Google />
-      </header>
+      </head>
       <body>
         <StyledComponentsRegistry>
           {children}
