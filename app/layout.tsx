@@ -37,7 +37,7 @@ export default function RootLayout({
       <body>
         <StyledComponentsRegistry>
           {children}
-          <FacebookPixel />
+          {/* <FacebookPixel /> */}
         </StyledComponentsRegistry>
       </body>
     </html>
