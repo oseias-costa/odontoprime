@@ -14,7 +14,7 @@ export default function Home() {
     import('react-facebook-pixel')
       .then((x) => x.default)
       .then((ReactPixel) => {
-        ReactPixel.init('1162821521076917') // facebookPixelId
+        ReactPixel.init('1809081562889574') // facebookPixelId
         ReactPixel.pageView()
       })
   }, [])
