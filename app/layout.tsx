@@ -2,10 +2,7 @@ import './globals.css'
 import StyledComponentsRegistry from './lib/registry'
 import localFont from 'next/font/local'
 import { Figtree } from 'next/font/google'
-import Google from './components/global/Google'
-import FacebookPixel from './components/global/FacebookPixel'
-import { useEffect } from 'react'
-import ReactPixel from 'react-facebook-pixel';
+import Script from 'next/script'
 
 export const metadata = {
   title: 'Clínica LP OdontoPrime',
@@ -29,11 +26,19 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
   return (
     <html lang="pt-Br" className={`${apollo.variable} ${figtree.className}`}>
-      {/* <head>
-        <Google />
-      </head> */}
+      <head>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-10835194696" />
+        <Script>
+          {` window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'AW-10835194696');
+          `}
+        </Script>
+      </head>
       <body>
         <StyledComponentsRegistry>
           {children}
