@@ -30,8 +30,8 @@ export default function RootLayout({
   return (
     <html lang="pt-Br" className={`${apollo.variable} ${figtree.className}`}>
       <head>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-10835194696" />
-        <Script>
+        <Script id='gtag' src="https://www.googletagmanager.com/gtag/js?id=AW-10835194696" />
+        <Script id='gtag-google'>
           {` window.dataLayer = window.dataLayer || [];
             function gtag() { dataLayer.push(arguments); }
             gtag('js', new Date());
