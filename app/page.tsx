@@ -6,8 +6,9 @@ import Treatments from "./components/treatments/Treatments";
 import Clinic from "./components/clinic/Clinic";
 import Maps from "./components/maps/Maps";
 import Footer from "./components/footer/Footer";
-import Whatsapp from "./components/whatsapp/Whatsapp";
+// import Whatsapp from "./components/whatsapp/Whatsapp";
 import { useEffect } from "react";
+import TagManager from 'react-gtm-module'
 
 export default function Home() {
   useEffect(() => {
@@ -18,6 +19,14 @@ export default function Home() {
         ReactPixel.pageView()
       })
   }, [])
+
+  const tagManagerArgs = {
+    gtmId: "AW-10835194696"
+  }
+  
+  useEffect(() => {
+    TagManager.initialize(tagManagerArgs)
+  },[])
 
   return (
     <main>

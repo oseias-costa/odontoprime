@@ -382,6 +382,11 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-gtm-module@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@types/react-gtm-module/-/react-gtm-module-2.0.3.tgz#bc4b68abc7112a658100266948e24e88330d2600"
+  integrity sha512-fL2zKdDFN5LckSsVBXEhhm9M4tFTM9oHJfGcfZJzktQkzpOTGtDM8oXIP9d9UBDxO4xLNZhS22dlgRVv6wgK9w==
+
 "@types/react@*", "@types/react@18.0.29":
   version "18.0.29"
   resolved "https://registry.npmjs.org/@types/react/-/react-18.0.29.tgz"
@@ -1956,6 +1961,16 @@ react-facebook-pixel@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/react-facebook-pixel/-/react-facebook-pixel-1.0.4.tgz#4760b60dc0451e345649d9710152b4b5419cf989"
   integrity sha512-givZY8MS0v/mdbRzvcvouBo/j0TtDiu/93f4gIjJXwDDgwlf6bYUiQvb2qcqjluOOD/hIKUQHNYLNsSOnoEklg==
+
+react-google-tag-manager@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-google-tag-manager/-/react-google-tag-manager-2.2.1.tgz#b0659c7b19d9263c7cb45d3c019f506529af9077"
+  integrity sha512-8yPbEE3r2z0OWRvJYg1HegKQktH2fIJ2hHCFzAk7+GeOHIK7Vcq+dA0wo2Wf81oHSPMHiOY7nhXIviSVJFV64w==
+
+react-gtm-module@^2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/react-gtm-module/-/react-gtm-module-2.0.11.tgz#14484dac8257acd93614e347c32da9c5ac524206"
+  integrity sha512-8gyj4TTxeP7eEyc2QKawEuQoAZdjKvMY4pgWfycGmqGByhs17fR+zEBs0JUDq4US/l+vbTl+6zvUIx27iDo/Vw==
 
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
