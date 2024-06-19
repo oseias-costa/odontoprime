@@ -16,7 +16,7 @@ export default function Headline() {
         </Description>
       </TitleContainer>
       <Blocks />
-      <Button href="https://wa.me/5554999284494" text="Agende uma Avaliação" />
+      <Button href="https://wa.me/5554999284494?text=Ol%C3%A1%2C%20estava%20em%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." text="Agende uma Avaliação" />
     </Container>
   );
 }
