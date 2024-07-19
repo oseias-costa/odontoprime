@@ -1,32 +1,31 @@
-import './globals.css'
-import StyledComponentsRegistry from './lib/registry'
-import localFont from 'next/font/local'
-import { Figtree } from 'next/font/google'
-import Script from 'next/script'
+import "./globals.css";
+import StyledComponentsRegistry from "./lib/registry";
+import localFont from "next/font/local";
+import { Figtree } from "next/font/google";
+import Script from "next/script";
 
 export const metadata = {
-  title: 'Clínica LP OdontoPrime',
-  description: 'O sorriso dos sonhos é na LP OdontoPrime',
-}
+  title: "Clínica LP OdontoPrime",
+  description: "O sorriso dos sonhos é na LP OdontoPrime",
+};
 
 const apollo = localFont({
-  src: '../public/fonts/APOLLO.otf',
-  display: 'swap',
-  variable: '--font-apollo'
-})
+  src: "../public/fonts/APOLLO.otf",
+  display: "swap",
+  variable: "--font-apollo",
+});
 
 const figtree = Figtree({
-  subsets: ['latin'],
-  variable: '--font-figtree',
-  display: 'swap'
-})
+  subsets: ["latin"],
+  variable: "--font-figtree",
+  display: "swap",
+});
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-
   return (
     <html lang="pt-Br" className={`${apollo.variable} ${figtree.className}`}>
       <head>
@@ -38,15 +37,20 @@ export default function RootLayout({
             gtag('config', 'AW-10835194696');
           `}
         </Script> */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10835194696"></script>
-        <script>
-          {`
+        <script
+          async
+          src={"https://www.googletagmanager.com/gtag/js?id=AW-10835194696"}
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'AW-10835194696');
-          `}
-        </script>
+          `,
+          }}
+        />
       </head>
       <body>
         <StyledComponentsRegistry>
@@ -55,5 +59,5 @@ export default function RootLayout({
         </StyledComponentsRegistry>
       </body>
     </html>
-  )
+  );
 }
