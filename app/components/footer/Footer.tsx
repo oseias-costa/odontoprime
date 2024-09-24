@@ -61,6 +61,8 @@ const Container = styled.footer`
   flex-wrap: wrap;
   padding: 40px;
   @media (max-width: 740px) {
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
     margin-top: 30px;
   }

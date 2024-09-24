@@ -6,6 +6,13 @@ import Blocks from "../components/start/Blocks";
 import Button from "../components/global/Button";
 import Image from "next/image";
 import ImgStart from "/public/implants/start-h.png";
+import One from "/public/implants/1.jpeg";
+import Two from "/public/implants/2.jpeg";
+import Tree from "/public/implants/3.jpeg";
+import Four from "/public/implants/4.jpeg";
+import Five from "/public/implants/5.jpeg";
+import Six from "/public/implants/6.jpeg";
+import Seven from "/public/implants/7.jpeg";
 
 export default function Implantes() {
   return (
@@ -30,7 +37,18 @@ export default function Implantes() {
       </Headline>
       <Testimonials>
         <H2>Depoimentos</H2>
-        <TestimonialsBox></TestimonialsBox>
+        <TestimonialsBox>
+          <VideoBox>
+            <Video
+              controls
+              src="https://lpodontoprime.com.br/implants/video.mp4"
+            ></Video>
+            <Video
+              controls
+              src="https://lpodontoprime.com.br/implants/second-video.mp4"
+            />
+          </VideoBox>
+        </TestimonialsBox>
       </Testimonials>
       <Benefits>
         <H2>Benefícios da prótese</H2>
@@ -70,6 +88,22 @@ export default function Implantes() {
           text="Quero mais informações"
         />
       </Benefits>
+      <BeforeAndAfter>
+        <H2>Antes e depois</H2>
+        <BeforeAndAfterItems>
+          <Img src={One} alt="Implantes dentários" />
+          <Img src={Two} alt="Implantes LP Odonto Prime" />
+          <Img src={Tree} alt="Implantes em Passo Fundo" />
+          <Img src={Four} alt="Implantes próteses" />
+          <Img src={Five} alt="Implantes dentários" />
+          <Img src={Six} alt="Implantes protocolos" />
+          <Img src={Seven} alt="Proteses fixas" />
+        </BeforeAndAfterItems>
+        <Button
+          href="https://wa.me/5554999284494?text=Ol%C3%A1%2C%20estava%20em%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o."
+          text="Agendar uma avaliação"
+        />
+      </BeforeAndAfter>
     </div>
   );
 }
@@ -87,6 +121,11 @@ const Headline = styled.div`
 const ImgHeadline = styled(Image)`
   width: 546px;
   height: 400px;
+
+  @media (max-width: 720px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 `;
 
 const Container = styled.div`
@@ -170,8 +209,7 @@ const Testimonials = styled.div`
   justify-content: center;
   padding-top: 80px;
   flex-direction: column;
-  align-items: center;
-  padding-bottom: 40px;
+  align-items: center;z
 `;
 
 const TestimonialsBox = styled.div`
@@ -179,5 +217,64 @@ const TestimonialsBox = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   padding-top: 30px;
+`;
+
+const VideoBox = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 30px;
+  width: 900px;
+
+  @media (max-width: 800px) {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+`;
+
+const Video = styled.video`
+  margin: 10px;
+  position: relative;
+  z-index: 2;
+  width: auto;
+  height: 500px;
+  border-radius: 6px;
+  position: relative;
+  top: 5px;
+
+  @media (max-width: 800px) {
+    width: 320px;
+    height: 580px;
+  }
+`;
+
+const BeforeAndAfter = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  flex-direction: column;
+  align-items: center;
   padding-bottom: 40px;
+
+  @media (max-width: 740px) {
+    text-align: center;
+  }
+`;
+
+const BeforeAndAfterItems = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-v: 80px;
+  padding-bottom: 40px;
+  max-width: 1000px;
+`;
+
+const Img = styled(Image)`
+  width: 300px;
+  height: auto;
+  margin: 10px;
 `;
