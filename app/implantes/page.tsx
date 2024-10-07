@@ -13,6 +13,7 @@ import Four from "/public/implants/4.jpeg";
 import Five from "/public/implants/5.jpeg";
 import Six from "/public/implants/6.jpeg";
 import Seven from "/public/implants/7.jpeg";
+import Script from "next/script";
 
 export default function Implantes() {
   return (
@@ -20,11 +21,11 @@ export default function Implantes() {
       <Headline>
         <Container>
           <TitleContainer>
-            <Title>Recupere seu sorriso com prótese fixa por </Title>
+            <Title>Recupere seu sorriso com prótese fixa sobre </Title>
             <Emphasis>Implantes!</Emphasis>
             <Description>
               Referência em Passo Fundo e região, a Clínica LP Odonto Prime é
-              especialista em próteses e implantes dentário. Clique abaixo para
+              especialista em próteses e implantes dentários. Clique abaixo para
               saber mais informações.
             </Description>
           </TitleContainer>
@@ -104,6 +105,17 @@ export default function Implantes() {
           text="Agendar uma avaliação"
         />
       </BeforeAndAfter>
+      <Script src="https://static.elfsight.com/platform/platform.js" async />
+      <div
+        style={{
+          fontFamily: "var(--font-figtree)",
+          marginLeft: "20px",
+          marginRight: "20px",
+          marginTop: "60px",
+        }}
+        className="elfsight-app-e6610039-5664-4a5d-934f-1c571b30e6ff"
+        data-elfsight-app-lazy
+      ></div>
     </div>
   );
 }
@@ -277,4 +289,10 @@ const Img = styled(Image)`
   width: 300px;
   height: auto;
   margin: 10px;
+`;
+
+const Div = styled.div`
+  .WidgetTitle__Header-sc-ruy1gu-2 {
+    font-family: var(--font-apollo);
+  }
 `;
