@@ -42,10 +42,12 @@ export default function Implantes() {
           <VideoBox>
             <Video
               controls
+              poster="https://lpodontoprime.com.br/implants/claudio.png"
               src="https://lpodontoprime.com.br/implants/video.mp4"
             ></Video>
             <Video
               controls
+              poster="https://lpodontoprime.com.br/implants/segundo.png"
               src="https://lpodontoprime.com.br/implants/second-video.mp4"
             />
           </VideoBox>
