@@ -11,10 +11,12 @@ import Lab9 from "../../../public/clinic/lab/lab9.webp";
 import Lab10 from "../../../public/clinic/lab/lab10.webp";
 import Lab11 from "../../../public/clinic/lab/lab11.webp";
 import Dentist1 from "../../../public/clinic/dentists/dentist1.png";
-import Dentist2 from "../../../public/clinic/dentists/dentist2.png";
-import Dentist3 from "../../../public/clinic/dentists/dentist3.png";
-import Dentist4 from "../../../public/clinic/dentists/dentist4.png";
-import Dentist5 from "../../../public/clinic/dentists/dentist5.png";
+import AndreLuis from "../../../public/clinic/dentists/andre-luis.webp";
+import EduardaLunelli from "../../../public/clinic/dentists/eduarda-lunelli.webp";
+import DanielVicente from "../../../public/clinic/dentists/daniel-vicente.webp";
+import MorganaSchneider from "../../../public/clinic/dentists/morgana-schneider.webp";
+import LeticiaDallapria from "../../../public/clinic/dentists/leticia-dallapria.webp";
+import VagnerFlavio from "../../../public/clinic/dentists/vagner-flavio.webp";
 
 export const lab = [
   {
@@ -54,21 +56,49 @@ export const dentist = [
     id: 1,
     name: "Dra. Laís Algayer Raguze",
     description:
-      "Cirurgiã-dentista formada pela FASURGS em 2017.  Ortodontia. Diretora clínica da unidade e dentista avaliadora.",
+      "CRO/RS 24917. Cirurgiã-dentista formada pela FASURGS em 2017. Implantodontia, prótese e ortodontia.",
     image: Dentist1,
   },
   {
     id: 2,
-    name: "Dr. Rodrigo Ottoni",
+    name: "Dr. André Luís Algarve",
     description:
-      "Cirurgião-dentista formado pela UPF em 2014. Mestre e doutor em Odontologia (biomateriais) com doutorado sanduíche nos EUA (Jackson, Mississippi). Especialista em dentística restauradora e estética.",
-    image: Dentist2,
+      "CRO/RS 17832. Cirurgião-dentista formado pela UPF em 2008. Especialista em Cirurgia e Traumatologia Bucomaxilofacial.",
+    image: AndreLuis,
   },
   {
     id: 3,
-    name: "Dra. Larissa Simião da Rocha",
+    name: "Dra. Eduarda Lunelli Ferrari",
     description:
-      "Cirurgiã-dentista formada pela UPF em 2018. Mestre e doutora em Odontologia (biomateriais). Especializanda em Prótese Dentária. Ênfase em próteses fixas e lentes de contato.",
-    image: Dentist3,
+      "CRO/RS 34195. Cirurgiã-dentista formada pela UPF em 2026. Clínico geral.",
+    image: EduardaLunelli,
+  },
+  {
+    id: 4,
+    name: "Dr. Daniel Vicente Tognon",
+    description:
+      "CRO/RS 25645. Cirurgião-dentista formado pela UPF em 2018. Endodontia.",
+    image: DanielVicente,
+  },
+  {
+    id: 5,
+    name: "Dra. Morgana Schneider de Oliveira",
+    description:
+      "CRO/RS 22434. Cirurgiã-dentista formada pela UPF em 2014. Especialista em Implantodontia.",
+    image: MorganaSchneider,
+  },
+  {
+    id: 6,
+    name: "Dra. Letícia Dallapria Ribeiro",
+    description:
+      "CRO/RS 28196. Cirurgiã-dentista formada pela UPF em 2020. Dentística.",
+    image: LeticiaDallapria,
+  },
+  {
+    id: 7,
+    name: "Dr. Vagner Flávio Reginato",
+    description:
+      "CRO/RS 22741. Cirurgião-dentista formado pela IMED em 2014. Prótese dentária. Disfunção temporomandibular e dor orofacial.",
+    image: VagnerFlavio,
   },
 ];
